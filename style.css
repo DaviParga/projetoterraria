@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@font-face {
+    font-family: "minha-font";
+    src: url(Terraria-Font/ANDYB.TTF);
+}
 :root{
     --cor01--:#1CFD72;
     --cor02--:#1c90fdac;
@@ -8,7 +10,7 @@
 }
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'minha-font', sans-serif;
     margin:0px;
     padding:0px;
     text-decoration: none;
